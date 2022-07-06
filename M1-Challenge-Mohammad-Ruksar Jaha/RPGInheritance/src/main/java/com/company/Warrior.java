@@ -15,7 +15,7 @@ public class Warrior extends Character{
     Abilities:
     attack another character*/
 
-    public Warrior(int shieldStrength){
+    public Warrior(){
 
         strength = 75;
         health = 100;
@@ -39,5 +39,15 @@ public class Warrior extends Character{
 
     }
 
+    public int attackingPower(){
+
+        if(arrested == false){
+            attackPower = this.attackPower + 5;
+            System.out.println("The Warrior's attacking power is: " + attackPower);
+        }
+        return attackPower;
+
+
+    }
 
 }

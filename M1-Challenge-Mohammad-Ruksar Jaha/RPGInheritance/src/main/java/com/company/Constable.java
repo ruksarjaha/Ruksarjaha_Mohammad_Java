@@ -17,7 +17,7 @@ public class Constable extends Character{
     attack another character*/
     protected String jurisdiction;
 
-    public Constable(String jurisdiction){
+    public Constable(){
 
         this.jurisdiction = jurisdiction;
         strength = 60;
@@ -34,4 +34,15 @@ public class Constable extends Character{
     public void arrestAnotherCharacter(){
         System.out.println(this.getName() + ": Can arrest another character.");
     }
+
+    public int healthPoints(){
+
+        if(running == false && arrested == false){
+            health = this.health + 10;
+            System.out.println("The health points of Constable are: " + health);
+        }
+        return health;
+    }
+
+
 }
