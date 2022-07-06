@@ -15,12 +15,19 @@ public class ConverterIfTest {
     }
     @Test
     public void convertMonthNumberToMonthName() {
-        
-        String expectedOutput = "January";
-        int actualOutput = convertMonth(1);
-        assertEquals(expectedOutput, actualOutput);
 
+        String expected = "December";
+        String actual = conIf.convertMonth(12);
+        assertEquals(expected , actual);
 
+    }
+
+    @Test
+    public void convertDayNumberToDayName(){
+
+        String expected = "Friday";
+        String actual = conIf.convertDay(6);
+        assertEquals(expected, actual);
     }
 
 
