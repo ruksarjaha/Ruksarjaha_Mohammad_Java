@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/CalculatorObject/CalculatorObject.iml" filepath="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/CalculatorObject/CalculatorObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/ConverterInterface/ConverterInterface.iml" filepath="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/ConverterInterface/ConverterInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/CustomerComposition/CustomerComposition.iml" filepath="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/CustomerComposition/CustomerComposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/IceCreamClassDesign/IceCreamClassDesign.iml" filepath="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/IceCreamClassDesign/IceCreamClassDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/RPGInheritance/RPGInheritance.iml" filepath="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/RPGInheritance/RPGInheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Ruksarjaha_Mohammad_Java.iml" filepath="$PROJECT_DIR$/.idea/Ruksarjaha_Mohammad_Java.iml" />
+    </modules>
+  </component>
+</project>

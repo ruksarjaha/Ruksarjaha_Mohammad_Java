@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/RPGInheritance/pom.xml" />
+        <option value="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/CalculatorObject/pom.xml" />
+        <option value="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/ConverterInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/CustomerComposition/pom.xml" />
+        <option value="$PROJECT_DIR$/M1-Challenge-Mohammad-Ruksar Jaha/IceCreamClassDesign/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
