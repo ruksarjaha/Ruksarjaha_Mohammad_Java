@@ -1,5 +1,7 @@
 package com.company.pointofsale;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class IceCream {
 
     public String flavor;
@@ -7,6 +9,18 @@ public class IceCream {
     public int quantity;
 
     public double price;
+
+    public int numberOfScoops;
+
+    public boolean sprinklers;
+
+    public void setSprinklers(boolean sprinklers) {
+        this.sprinklers = sprinklers;
+    }
+
+    public void setNumberOfScoops(int numberOfScoops) {
+        this.numberOfScoops = numberOfScoops;
+    }
 
     public String getFlavor() {
         return flavor;
@@ -61,6 +75,22 @@ public class IceCream {
             this.price = 1.00;
         }
 
+    }
+
+    public String scoopsPerCone(){
+
+        if(numberOfScoops == 3){
+            System.out.println("Can fit in the cone");
+        }
+        return  "Too many Scoops";
+
+    }
+
+    public String addSprinklers(){
+        if(sprinklers == true){
+            System.out.println("Add Sprinklers to the cone");
+        }
+        return "No Sprinklers";
     }
 
 }
